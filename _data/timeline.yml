@@ -2,8 +2,8 @@
   from: 2023
   to: Present
   description: >
-               • IMU-based robotic hip exoskeleton control system with human-in-the-loop optimization. <br>
-               • Simulation and LQR-based controller for quasi-direct drive jumping-driving robot.
+               • Sub-1 kg single-actuator soft hip exosuit with differential tendon drive for bilateral hip assistance. <br>
+               • Developed CM-scale mobile robot platforms for exploration: wall-climbing drone using microspine and quasi-direct-drive jumping-driving robot.
 
 - title: Vex Robotics Instructor - Beyond Coding
   from: 2024
