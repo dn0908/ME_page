@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by yousinix
+  Free for personal and commercial use under the MIT license
+  https://github.com/yousinix/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Theo Jansen Autonomous Robot">
+  <meta property="og:description" content="Designed and Developed Autonomous Legged Robot using Theo Jansen Linkage">
+  <meta property="og:image" content="/assets/img/theojansen.png">
+
+  <title>Theo Jansen Autonomous Robot</title>
+  <meta name="description" content="Designed and Developed Autonomous Legged Robot using Theo Jansen Linkage">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Dahyun Nam</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Research & Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Awards</a>
+
+      <a class="nav-item nav-link " href="/publications/">Publications</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h2 id="autonomous-legged-robot-using-theo-jansen-linkage">Autonomous Legged Robot using Theo Jansen Linkage</h2>
+<h3 id="ㅤ">ㅤ</h3>
+
+<p>As a part of a robot project during my undergraduate course, I made a Theo Jansen linkage-based legged robot and participated in a self-driving challenge. I designed the linkage using simulation, fabricated the robot by myself and programmed the software for the challenge.</p>
+<h3 id="ㅤ-1">ㅤ</h3>
+
+<h3 id="1-simulation-and-modeling-of-jansen-mechanism">1. Simulation and Modeling of Jansen Mechanism</h3>
+
+<p>Using V-REP Simulation, I modelled different types of linkage that can be used for a legged robot and did parameter studies in different leg, motor and frame properties.</p>
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/1yakNY1jaRg?si=yN4dxsv4NL9vaxbXautoplay=1&amp;mute=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
+
+<p>I found the possible best case of parameters and designed the leg mechanism according to it. And using carbon rods for the legs axes and FDM printed parts, I assembled the robot.
+<img src="/assets/img/jansendesign.png" alt="Robot-design" style="width:100%;" /></p>
+
+<h3 id="ㅤ-2">ㅤ</h3>
+<h3 id="2-self-driving-algorithm-using-lane-and-obstacle-detection">2. Self-Driving Algorithm using Lane and Obstacle detection</h3>
+<p>Using the legged robot, I designed Self-Driving Algorithm using Lane and Obstacle detection using Python OpenCV and Cascade Classifier.</p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Diana Nam</strong>
+  </small>
+
+<div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:diana_nam@snu.ac.kr"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/dahyun-diana-nam"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/yousinix/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+- name: CAD (Creo, Solidworks, AutoCAD, Fusion360, Onshape, Autodesk Inventor)
+  percentage: 100
+  color: info
+
+- name: MATLAB & Simulink
+  percentage: 95
+  color: success 
+
+- name: FEMM
+  percentage: 70
+  color: success
