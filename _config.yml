@@ -4,8 +4,9 @@ description         : >-
                       Hello I am Diana :)
                       I'm currently studying robotics at the Biorobotics Lab in Seoul National University.
                       Thanks for visiting my site!
-baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : dn0908/dn0908.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+url                 : "https://dn0908.github.io"
+baseurl             : "/ME_page"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+# repository          : dn0908/dn0908.github.io/ME_page      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
